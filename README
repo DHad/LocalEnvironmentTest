@@ -4,19 +4,3 @@ Requisites:
 nodejs
 connect (node module)
 serve-static (node module)
-
-NOTES:
-
-Bootsrap css goes in root folder of whatever view you want to run, in this case ../test.html.
-
-server.js goes in ../nodejs installation folder
-
-run "npm install -g some_module" as root to install modules - global modules should be in usr/lib/node_modules -- not your home user folder unless that's also where you have your view and resources and server and nodejs and node_modules.
-
-the path to whatever view/html file you want to run (in this case usr/lib/angular/test.html) needs to specified in the string you pass to serveStatic(). I made my path absolute for readability. 
-
-
-
-
-
-
